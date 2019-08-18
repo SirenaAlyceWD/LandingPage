@@ -125,6 +125,12 @@ a.nav-link:hover {
 		right: -25px;
 		z-index: 1;
 	}
+	  .pup-logo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
 }
 
 @media screen 
@@ -158,7 +164,7 @@ and (orientation : portrait)  {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 }
 
@@ -192,7 +198,7 @@ and (orientation : portrait)  {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 
 }
