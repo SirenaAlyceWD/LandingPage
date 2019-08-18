@@ -154,6 +154,12 @@ and (orientation : portrait)  {
 		right: -18px;
 		z-index: 1;
 	}
+	.pup-logo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 3px;
+}
 }
 
 @media only screen 
@@ -185,7 +191,7 @@ and (orientation : portrait)  {
 	.pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1em;
 	letter-spacing: 3px;
 }
 
