@@ -52,8 +52,13 @@ a.nav-link:hover {
 .pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 3.5em;
 	letter-spacing: 5px;
+}
+
+.pup-logo .letter {
+  display: inline-block;
+  line-height: 1em;
 }
 
 .feature, .headline {
