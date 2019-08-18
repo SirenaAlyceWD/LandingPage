@@ -161,7 +161,7 @@ and (orientation : portrait)  {
 		background-color: #c0c000;
 		opacity: .6;
 		top:315px;
-		right: -18px;
+		right: 18px;
 		z-index: 1;
 	}
 	
@@ -186,7 +186,7 @@ and (orientation : portrait)  {
 		background-color: #000040;
 		opacity: .6;
 		top:347px;
-		right: -18px;
+		right: 18px;
 		z-index: 1;
 	}
 }
