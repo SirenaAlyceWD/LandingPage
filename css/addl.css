@@ -47,16 +47,15 @@ a.nav-link:hover {
 	border: none;
 }
 
-/*SVG*/
-
-svg {
-	margin-bottom: 20px;
-}
-/*STROKE ANIMATION*/
-
-
 
 /*JUMBOTRON*/
+.pup-logo {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
 .feature, .headline {
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
