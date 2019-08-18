@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*FONTS*/
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/*NAVIGATION*/
+.navbar-brand {
+	margin-left: 32px;
+}
+
+button {
+	border-radius: 80px;
+	background-color:#000040;
+	border: none;
+}
+
+button a.nav-link {
+	color:#fff;
+}
+.navbar {
+	background-color: transparent !important;
+	color: #000040;
+}
+
+.nav-item {
+	padding-left: 17px;
+	padding-right: 17px;
+}
+a.nav-link {
+	color:#000040;
+}
+
+a.nav-link:hover {
+	color:#C0C000;
+}
+
+.navbar-toggler-icon {
+	background-image: url('../images/baidu-paw-logo.svg');
+}
+
+.dropdown-menu {
+	border: none;
+}
+
+/*SVG*/
+
+svg {
+	margin-bottom: 20px;
+}
+/*STROKE ANIMATION*/
+
+
+
+/*JUMBOTRON*/
+.feature, .headline {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+}
+
+.feature:hover {
+	color: #c0c000;
+}
+
+.bdes {
+	font-family: 'Montserrat', sans-serif;
+}
+.subheading {
+	font-size: 10px;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.jumbotron {
+	background-color: transparent;
+}
+
+.ygreendiv {
+	background-color: #c0c000;
+	width: 100px;
+	height: 3px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.square {
+  pointer-events: none;
+  position: absolute;
+  width: 100px;
+  height: 65px;
+}
+.navy {
+	background-color: #000040;
+	top:330px;
+	right: 47px;
+	width: 50px !important;
+}
+
+.ygreen {
+	background-color: #c0c000;
+	opacity: .6;
+	top:300px;
+	right: 47px;
+	z-index: 1;
+}
+
+/*Offer*/
+
+.offer {
+	background-color: #000040;
+	color:#fff;
+	padding: 10px;
+}
+
+.offer button {
+	background-color: #c0c000;
+}
+
+.offer a:hover {
+	color:#000040; 
+}
+
+/*Footer*/
+.about-text {
+	width: 50%;
+}
+footer {
+	margin-top: 20px;
+}
+
+footer a {
+	color:#c0c000;
+}
+
+.reference {
+	font-size: 10px;
+}
