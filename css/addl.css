@@ -192,6 +192,33 @@ and (orientation : portrait)  {
 	}
 }
 
+/*tablet*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 325px) 
+and (orientation : portrait)  { 
+	.ygreen {
+		background-color: #c0c000;
+		opacity: .6;
+		top:315px;
+		right: 2px;
+		z-index: 1;
+	}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 325px) 
+and (orientation : portrait)  { 
+	.navy {
+		background-color: #000040;
+		opacity: .6;
+		top:344px;
+		right: 2px;
+		z-index: 1;
+	}
+}
+
 /*Offer*/
 
 .offer {
