@@ -136,7 +136,7 @@ a.nav-link:hover {
 	  .pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 2em;
 	letter-spacing: 2px;
 }
 }
@@ -177,7 +177,7 @@ and (orientation : portrait)  {
 	.pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	}
 }
@@ -216,7 +216,7 @@ and (orientation : portrait)  {
 .pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	}
 }
