@@ -199,12 +199,18 @@ and (orientation : portrait)  {
 	.ygreen {
 		background-color: #c0c000;
 		opacity: .6;
-		top:315px;
-		right: 2px;
+		top:302px;
+		right: 30px;
 		z-index: 1;
 	}
-	
-	.pup-logo {
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+	and (orientation : portrait) {
+
+.pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 16px;
@@ -224,8 +230,8 @@ and (orientation : portrait)  {
 	.navy {
 		background-color: #000040;
 		opacity: .6;
-		top:347px;
-		right: 2px;
+		top:333px;
+		right: 30px;
 		z-index: 1;
 	}
 }
