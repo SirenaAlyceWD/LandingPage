@@ -112,44 +112,41 @@ a.nav-link:hover {
 /*Galaxies*/
 /* Portrait */
 
-@media screen 
-  and (device-width: 320px) 
+@media only screen 
+  and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 3) 
   and (orientation: portrait)  { 
 	.ygreen {
 		background-color: #c0c000;
 		opacity: .6;
-		top:315px;
-		right: -25px;
+		top:336px;
+		right: 30px;
+		z-index: 1;
+	}
+	  .navy {
+		background-color: #000040;
+		opacity: .6;
+		top:368px;
+		right: 30px;
 		z-index: 1;
 	}
 	  .pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	letter-spacing: 3px;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 
 .pup-logo .letter {
   display: inline-block;
 }
+	  .headline {
+		  font-size: 1rem;
+	  }
 
 }
 
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) { 
-	.navy {
-		background-color: #000040;
-		opacity: .6;
-		top:315px;
-		right: -25px;
-		z-index: 1;
-	}
-}
 
 /*iphone 6,7,8 and x*/
 
@@ -160,36 +157,34 @@ and (orientation : portrait)  {
 	.ygreen {
 		background-color: #c0c000;
 		opacity: .6;
-		top:315px;
-		right: 18px;
+		top:333px;
+		right: 31px;
+		z-index: 1;
+	}
+	.navy {
+		background-color: #000040;
+		opacity: .6;
+		top:347px;
+		right: 31px;
 		z-index: 1;
 	}
 	
 	.pup-logo {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	letter-spacing: 3px;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 
 .pup-logo .letter {
   display: inline-block;
 }
+	 .headline {
+		  font-size: 1rem;
+	  }
 	
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait)  { 
-	.navy {
-		background-color: #000040;
-		opacity: .6;
-		top:347px;
-		right: 18px;
-		z-index: 1;
-	}
-}
 
 /*iphone 6,7,8 plus*/
 @media only screen 
@@ -199,42 +194,35 @@ and (orientation : portrait)  {
 	.ygreen {
 		background-color: #c0c000;
 		opacity: .6;
-		top:302px;
+		top:270px;
 		right: 30px;
 		z-index: 1;
 	}
-}
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-	and (orientation : portrait) {
-
-.pup-logo {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	letter-spacing: 3px;
-}
-
-.pup-logo .letter {
-  display: inline-block;
-}
-}
-
-
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (orientation : portrait)  { 
 	.navy {
 		background-color: #000040;
 		opacity: .6;
-		top:333px;
+		top:300px;
 		right: 30px;
 		z-index: 1;
 	}
-}
+
+
+	.pup-logo {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+
+	.pup-logo .letter {
+	  display: inline-block;
+	}
+			 .headline {
+			  font-size: 1rem;
+		  }
+	}
+
+
 
 /*tablet*/
 @media only screen 
@@ -289,6 +277,15 @@ and (orientation : portrait)  {
 /*Footer*/
 .about-text {
 	width: 50%;
+	font-size: 12px;
+}
+
+.contact, .about{
+	font-size: 16px;
+}
+
+.contact-text {
+	font-size: 12px;
 }
 footer {
 	margin-top: 20px;
